@@ -52,6 +52,18 @@ Send /me to know current plan details
 
 Support Group : @InFoTelGroup
 © @TGBotsZ"""
+    
+    PROGRESS = """
+Percentage : {0}%
+Done ✅: {1}
+Total 🌀: {2}
+Speed 🚀: {3}/s
+ETA 🕰: {4}
+"""
+       
+      DOWNLOAD_PROGRESS = "▪️"
+      UPLOAD_PROGRESS = "▫️"
+
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
