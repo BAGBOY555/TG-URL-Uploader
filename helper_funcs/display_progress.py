@@ -44,7 +44,7 @@ async def progress_for_pyrogram(
 
         progress = "[{0}{1}] \n📤 Percentage: {2}%\n".format(
             
-          ''.join(["■" for i in range(math.floor(percentage / 5))]),
+            ''.join(["■" for i in range(math.floor(percentage / 5))]),
             ''.join(["□" for i in range(20 - math.floor(percentage / 5))]),
             round(percentage, 2))
 
