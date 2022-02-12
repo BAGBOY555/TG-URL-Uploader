@@ -288,12 +288,12 @@ File Size: {}""".format(url, humanbytes(total_length))
                         (total_length - downloaded) / speed) * 1000
                     estimated_total_time = elapsed_time + time_to_completion
                     try:
-                        current_message = """**Download Status**
-URL: {}
-File Size: {}
-Speed: {}
-Downloaded: {}
-ETA: {}""".format(
+                        current_message = """**✅ Download Status ✅**
+🔗 URL: {}
+📁 File Size: {}
+🚀 Speed: {}
+🔰 Downloaded: {}
+⏳ ETA: {}""".format(
     url,
     humanbytes(total_length),
     humanbytes(speed),
